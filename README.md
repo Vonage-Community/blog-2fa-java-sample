@@ -26,7 +26,7 @@ Once you have downloaded a local copy, change into the directory of the applicat
 
 ### API Credentials
 
-Inside the `Domain` folder, you'll see a file named `Configuration.cs`. Add your Vonage API key to the string values for `APIKey` and `APISecret`. 
+Inside the source code, add your Vonage API key and API Secret to the string values. 
 
 As always, make sure not to commit your sensitive API credential data to any public version control. 
 
@@ -45,4 +45,4 @@ We ❤️ contributions from everyone! If you see something that needs fixing, t
 
 ## License
 
-This project is under the [Apache 2.0 License](https://github.com/Vonage-Community/blog-sms-csharp-realestate/blob/main/LICENSE).
+This project is under the [Apache 2.0 License](https://github.com/Vonage-Community/blog-2fa-java-sample/blob/main/LICENSE).
