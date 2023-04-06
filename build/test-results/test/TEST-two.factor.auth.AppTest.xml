@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="two.factor.auth.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-05T15:30:55" hostname="VONP4355X6FGC" time="0.003">
+  <properties/>
+  <testcase name="testAppHasAGreeting" classname="two.factor.auth.AppTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

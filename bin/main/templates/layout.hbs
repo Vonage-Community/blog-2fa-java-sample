@@ -1,0 +1,45 @@
+{{#block "header"}}
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Vonage Two-Factor Authentication Demo</title>
+  <meta name="description" content="Vonage 2FA Demo">
+  <meta name="author" content="Vonage Developers  @VonageDev">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
+  <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css"
+    integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJtE" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="flex-row">
+    <h1>Two-Factor Auth</h1>
+    <img class="logo" src="https://avatars.githubusercontent.com/u/92337346?s=200&v=4"
+      alt="Vonage logo">
+  </header>
+
+  <section id="main" role="main">
+    {{/block}}
+    <p class="intro">{{#block "message"}}{{/block}}</p>
+    <p class="number">{{#block "number"}}{{/block}}</p>
+    {{#block "content"}}
+    {{/block}}
+    {{#block "footer"}}
+  </section>
+
+  <p class="response"></p>
+
+  <footer class="flex-row">
+    Fork me on <a href="https://github.com/Vonage-Community/blog-2fa-java-2fa-sample"><i
+        class="fa fa-github fa-lg"></i>/vonage-community</a>
+  </footer>
+
+</body>
+
+</html>
+{{/block}}
